@@ -33,6 +33,7 @@ Currently, my goal is to become a Full-Stack Developer.
 - Deployment/Infrastructure: heroku, nginx;
 - Editors: VS Code, Atom;
 - Design: Figma;
+
 ---
 
 ### Code example:
