@@ -361,7 +361,12 @@ footer ul li img {
     .nav-list li:nth-child(5) {
         animation-delay: 1.0s;
     }
-
+    .nav-list li:nth-child(6) {
+        animation-delay: 1.2s;
+    }
+    .nav-list li:nth-child(7) {
+        animation-delay: 1.4s;
+    }
     .nav-link {
         margin-bottom: 10px;
     }
