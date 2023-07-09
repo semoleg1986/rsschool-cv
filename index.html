@@ -7,175 +7,177 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="primary-header">
-        <div class="nav-toggler">
-            <input type="checkbox" id="toggler">
-            <label for="toggler" class="burger">
-                <span class="bun bun--top">
-                    <span class="bun__crust bun__crust--top"></span>
-                </span>
-                <span class="bun bun--bottom">
-                    <span class="bun__crust bun__crust--bottom"></span>
-                </span>
-            </label>
-        </div>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"> 
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">Summary</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#code" class="nav-link">Code</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#education" class="nav-link">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#language" class="nav-link">Languages</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="profile" id="profile">
-            <img class="profile-image" src="assets/images/ava.JPG" alt="Semenov Oleg">
-            <div class="profile-info">
-                <h1>Oleg Semenov</h1>
-                <p>Junior Front-End Developer</p>
+    <div class="main-container">
+        <header class="primary-header">
+            <div class="nav-toggler">
+                <input type="checkbox" id="toggler">
+                <label for="toggler" class="burger">
+                    <span class="bun bun--top">
+                        <span class="bun__crust bun__crust--top"></span>
+                    </span>
+                    <span class="bun bun--bottom">
+                        <span class="bun__crust bun__crust--bottom"></span>
+                    </span>
+                </label>
             </div>
-        </section>
-        <section class="contact">          
-            <h2>Contact information</h2>
-            <ul class="contact-list">
-                <li class="contact-item">Phone:
-                    <a class="contact-link" href="tel:+905056570112" title="phone">+90 (505)657 0112</a>
-                </li>
-                <li class="contact-item">E-mail:
-                    <a class="contact-link" href="mailto:semoleg1986@gmail.com" title="email">semoleg1986@gmail.com</a>
-                </li>
-                <li class="contact-item">Github:
-                    <a class="contact-link" href="https://github.com/semoleg1986" title="github">semoleg1986</a>
-                </li>
-            </ul>
-        </section>
-        <div class="container">
-            <section class="about-section" id="about">
-                <h2>Summary</h2>
-                <p>Programming is a part of my life; it inspires and motivates me. In 2016, I started learning the Python programming language. It wasn't my first encounter with a programming language (I had previous experience with Pascal and C++), but this time it immersed me in the world of code, functions, and modules. Since then, I have been passionate about programming as a hobby.</p>
-                <p>In 2019, while pursuing my master's degree, I was assigned a project to create a corpus of the English language related to nuclear physics. Coincidentally, that was the time when I was fascinated with NLTK (Natural Language Toolkit). I developed software using Natural Language Processing (NLP) techniques and implemented it using the Python programming language.</p>
-                <p>In 2020, there was a scientific problem at the department related to measuring the diameters of erythrocytes in SEM (Scanning Electron Microscope) images. Applying my skills, I wrote a program for erythrocyte recognition. Now, the program automatically measured the areas and diameters of 1000 erythrocytes in just one minute.</p>
-                <p>Currently, my goal is to become a Full-Stack Developer.</p>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> 
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#language" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="profile" id="profile">
+                <img class="profile-image" src="assets/images/ava.JPG" alt="Semenov Oleg">
+                <div class="profile-info">
+                    <h1>Oleg Semenov</h1>
+                    <p>Junior Front-End Developer</p>
+                </div>
             </section>
-            <section class="skills-section" id="skills">
-                <h2>Skills</h2>
-                    <ul class="skills-list">
-                        <li>Front-End: HTML5, CSS3,JavaScript/TypeScript</li>
-                        <li>Frameworks/Libraries: React, Redux;</li>
-                        <li>API/GraphQL: Axios, GraphQL, Apollo-GraphQL;</li>
-                        <li>Build Tools: Vite;</li>
-                        <li>Code Quality: Eslint, Prettier;</li>
-                        <li>Testing: Vites, Cypress;</li>
-                        <li>Databases: Postgres, Sqlite;</li>
-                        <li>Deployment/Infrastructure: heroku, netlify, nginx;</li>
-                        <li>Editors: VS Code, Atom;</li>
-                        <li>Design: Figma;</li>
-                    </ul>
-            </section>
-            <section class="code-section" id="code">
-                <h2>Code example</h2>
-                <p>KATA from CODEWARS: Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.</p>
-                    <code>
-<span class="keyword">function</span> <span class="function-name">moveZeros</span>(<span class="parameter">array</span>) {
-    <span class="keyword">let</span> <span class="variable">i</span> = 0;
-    <span class="keyword">let</span> <span class="variable">j</span> = 0;
-    <span class="keyword">while</span> (i ‹ array.length) {
-        <span class="keyword">if</span> (array[i] !== 0) {
-            [<span class="variable">array[i]</span>, <span class="variable">array[j]</span>] = [<span class="variable">array[j]</span>, <span class="variable">array[i]</span>];
-            j++;
-        }
-        i++;
-    }
-    <span class="keyword">return</span> <span class="variable">array</span>;
-}
-                    </code>             
-            </section>
-            <section class="projects-section" id="experience">
-                <h2>Projects</h2>
-                    <ul class="projects-list">
-                        <li>Website development: 
-                            <a class="projects-link" href="https://www.nefu-medphys.com">https://www.nefu-medphys.com</a>
-                        </li>
-                        <li>Program development: 
-                            <a class="projects-link" href="https://rg.ru/2022/07/04/reg-dfo/fiziki-svfu-nahodiat-novye-sposoby-borby-s-onkozabolevaniiami.html">https://rg.ru/2022/07/04/reg-dfo/fiziki-svfu-nahodiat-novye-sposoby-borby-s-onkozabolevaniiami.html</a>
-                        </li>
-                        <li>Program development: 
-                            <a class="projects-link" href="https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745">https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745</a>
-                        </li>
-                        <li>Website development: 
-                            <a class="projects-link" href="https://rococo-tartufo-b0205d.netlify.app">https://rococo-tartufo-b0205d.netlify.app</a>
-                        </li>
-                        <li>Website development: 
-                            <a class="projects-link"  href="https://develop--golden-clafoutis-688ad6.netlify.app">https://develop--golden-clafoutis-688ad6.netlify.app</a>
-                        </li>
-                        <li>File-manager: 
-                            <a class="projects-link"  href="https://github.com/semoleg1986/file-manager/tree/dev">https://github.com/semoleg1986/file-manager/tree/dev</a>
-                        </li>
-                    </ul>
-            </section>
-            <section class="education-section" id="education">
-                <h2>Education</h2>
-                <article class="education-article">
-                    <h3>University</h3>
-                    <ul class="education-list">
-                        <li>North-Eastern Federal University/specialist in radiophysics and electronics(5 years)</li>
-                        <li>North-Eastern Federal University/master of physics(specialization: medical physics)</li>
-                    </ul>
-                </article>
-                <article class="course-article">
-                    <h3>Courses</h3>
-                    <ul class="course-list">
-                        <li>React 2023 Q1 in RS School  
-                            <a class="projects-link" href="https://app.rs.school/certificate/a0n1gslo">certificate</a>
-                        </li>
-                        <li>AWS Fundamentals in RS School
-                            <a class="projects-link" href="https://app.rs.school/certificate/guapmure">certificate</a>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-            <section class="lang-section" id="language">
-                <h2>Languages</h2>
-                <ul class="education-list">
-                    <li>English - Intermediate</li>
-                    <li>Russian - Native</li>
+            <section class="contact">          
+                <h2>Contact information</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">Phone:
+                        <a class="contact-link" href="tel:+905056570112" title="phone">+90 (505)657 0112</a>
+                    </li>
+                    <li class="contact-item">E-mail:
+                        <a class="contact-link" href="mailto:semoleg1986@gmail.com" title="email">semoleg1986@gmail.com</a>
+                    </li>
+                    <li class="contact-item">Github:
+                        <a class="contact-link" href="https://github.com/semoleg1986" title="github">semoleg1986</a>
+                    </li>
                 </ul>
             </section>
-        </div>
-    </main>
-    <footer>
-        <ul>
-            <li>
-                <a href="https://github.com/semoleg1986" target="_blank">semoleg1986</a>
-            </li>
-            <li>
-                2023
-            </li>
-            <li>
-                <a href="https://rs.school/js/" target="_blank">
-                    <img src="assets/images/rs_school_js.svg" alt="Логотип RSSchool" width="100">
-                </a>
-            </li>
-        </ul>
-    </footer>
+            <div class="container">
+                <section class="about-section" id="about">
+                    <h2>Summary</h2>
+                    <p>Programming is a part of my life; it inspires and motivates me. In 2016, I started learning the Python programming language. It wasn't my first encounter with a programming language (I had previous experience with Pascal and C++), but this time it immersed me in the world of code, functions, and modules. Since then, I have been passionate about programming as a hobby.</p>
+                    <p>In 2019, while pursuing my master's degree, I was assigned a project to create a corpus of the English language related to nuclear physics. Coincidentally, that was the time when I was fascinated with NLTK (Natural Language Toolkit). I developed software using Natural Language Processing (NLP) techniques and implemented it using the Python programming language.</p>
+                    <p>In 2020, there was a scientific problem at the department related to measuring the diameters of erythrocytes in SEM (Scanning Electron Microscope) images. Applying my skills, I wrote a program for erythrocyte recognition. Now, the program automatically measured the areas and diameters of 1000 erythrocytes in just one minute.</p>
+                    <p>Currently, my goal is to become a Full-Stack Developer.</p>
+                </section>
+                <section class="skills-section" id="skills">
+                    <h2>Skills</h2>
+                        <ul class="skills-list">
+                            <li>Front-End: HTML5, CSS3,JavaScript/TypeScript</li>
+                            <li>Frameworks/Libraries: React, Redux;</li>
+                            <li>API/GraphQL: Axios, GraphQL, Apollo-GraphQL;</li>
+                            <li>Build Tools: Vite;</li>
+                            <li>Code Quality: Eslint, Prettier;</li>
+                            <li>Testing: Vites, Cypress;</li>
+                            <li>Databases: Postgres, Sqlite;</li>
+                            <li>Deployment/Infrastructure: heroku, netlify, nginx;</li>
+                            <li>Editors: VS Code, Atom;</li>
+                            <li>Design: Figma;</li>
+                        </ul>
+                </section>
+                <section class="code-section" id="code">
+                    <h2>Code example</h2>
+                    <p>KATA from CODEWARS: Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.</p>
+                        <code>
+    <span class="keyword">function</span> <span class="function-name">moveZeros</span>(<span class="parameter">array</span>) {
+        <span class="keyword">let</span> <span class="variable">i</span> = 0;
+        <span class="keyword">let</span> <span class="variable">j</span> = 0;
+        <span class="keyword">while</span> (i ‹ array.length) {
+            <span class="keyword">if</span> (array[i] !== 0) {
+                [<span class="variable">array[i]</span>, <span class="variable">array[j]</span>] = [<span class="variable">array[j]</span>, <span class="variable">array[i]</span>];
+                j++;
+            }
+            i++;
+        }
+        <span class="keyword">return</span> <span class="variable">array</span>;
+    }
+                        </code>             
+                </section>
+                <section class="projects-section" id="experience">
+                    <h2>Projects</h2>
+                        <ul class="projects-list">
+                            <li>Website development: 
+                                <a class="projects-link" href="https://www.nefu-medphys.com">https://www.nefu-medphys.com</a>
+                            </li>
+                            <li>Program development: 
+                                <a class="projects-link" href="https://rg.ru/2022/07/04/reg-dfo/fiziki-svfu-nahodiat-novye-sposoby-borby-s-onkozabolevaniiami.html">https://rg.ru/2022/07/04/reg-dfo/fiziki-svfu-nahodiat-novye-sposoby-borby-s-onkozabolevaniiami.html</a>
+                            </li>
+                            <li>Program development: 
+                                <a class="projects-link" href="https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745">https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745</a>
+                            </li>
+                            <li>Website development: 
+                                <a class="projects-link" href="https://rococo-tartufo-b0205d.netlify.app">https://rococo-tartufo-b0205d.netlify.app</a>
+                            </li>
+                            <li>Website development: 
+                                <a class="projects-link"  href="https://develop--golden-clafoutis-688ad6.netlify.app">https://develop--golden-clafoutis-688ad6.netlify.app</a>
+                            </li>
+                            <li>File-manager: 
+                                <a class="projects-link"  href="https://github.com/semoleg1986/file-manager/tree/dev">https://github.com/semoleg1986/file-manager/tree/dev</a>
+                            </li>
+                        </ul>
+                </section>
+                <section class="education-section" id="education">
+                    <h2>Education</h2>
+                    <article class="education-article">
+                        <h3>University</h3>
+                        <ul class="education-list">
+                            <li>North-Eastern Federal University/specialist in radiophysics and electronics(5 years)</li>
+                            <li>North-Eastern Federal University/master of physics(specialization: medical physics)</li>
+                        </ul>
+                    </article>
+                    <article class="course-article">
+                        <h3>Courses</h3>
+                        <ul class="course-list">
+                            <li>React 2023 Q1 in RS School  
+                                <a class="projects-link" href="https://app.rs.school/certificate/a0n1gslo">certificate</a>
+                            </li>
+                            <li>AWS Fundamentals in RS School
+                                <a class="projects-link" href="https://app.rs.school/certificate/guapmure">certificate</a>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="lang-section" id="language">
+                    <h2>Languages</h2>
+                    <ul class="education-list">
+                        <li>English - Intermediate</li>
+                        <li>Russian - Native</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <a href="https://github.com/semoleg1986" target="_blank">semoleg1986</a>
+                </li>
+                <li>
+                    2023
+                </li>
+                <li>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="assets/images/rs_school_js.svg" alt="Логотип RSSchool" width="100">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
     <script>
         const burger = document.querySelector('#toggler');
         const navList  = document.querySelector('.nav');

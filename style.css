@@ -32,7 +32,9 @@ a:hover {
     text-decoration: none;
     color: #ffc300;
 }
-
+.main_container{
+    width: 100vh;
+}
 /* HEADER */
 .primary-header {
     display: flex;
