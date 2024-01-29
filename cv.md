@@ -85,6 +85,7 @@ File-manager: [https://github.com/semoleg1986/file-manager/tree/dev](https://git
 * React 2023 Q1 in RS School [certificate](https://app.rs.school/certificate/a0n1gslo)
 * AWS Fundamentals in RS School [certificate](https://app.rs.school/certificate/guapmure)
 * NodeJS 2023 Q2 in RS School [certificate](https://app.rs.school/certificate/cxwnq4hz)
+* Angular 2023Q4 in RS School [certificate](https://app.rs.school/certificate/2oxj2ijf)
 * Python (Professional Certificate) [certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/R6E5ZGLTXPBT)
 
 ---
