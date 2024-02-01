@@ -1,7 +1,7 @@
 # Oleg Semenov
 ---
 ### Contact information:
-**Phone:** +90 505 6570112<br>
+**Phone:** +7 968 151 7070<br>
 **E-mail:** semoleg1986@gmail.com<br>
 **Telegram:** @semoleg1986<br>
 [LinkedIn](https://www.linkedin.com/in/semoleg1986/)<br>
@@ -22,17 +22,27 @@ Currently, my goal is to become a Full-Stack Developer.
 
 ### Skills and Proficiency:
 
-- Front-End: HTML5, CSS3,JavaScript/TypeScript
-- Frameworks/Libraries: React, Redux;
-- API/GraphQL: Axios, GraphQL, Apollo-GraphQL;
-- Build Tools: Vite;
+Languages: Python, JavaScript/TypeScript;
+
+Editors: VS Code, Atom;
+
+Source control: Git
+#### Frontend
+- Front-End: HTML5, CSS3
+- Frameworks/Libraries: React, Angular, Redux;
+- API/GraphQL: Axios, GraphQL, Apollo-GraphQL, ;
+- Build Tools: Vite, Webpack;
 - Code Quality: Eslint, Prettier;
-- Testing: Vites, Cypress;
-- Back-End: Python, Django Djangorestframework, graphene, pydantic, strawberry;
-- Databases: Postgres, Sqlite;
-- Deployment/Infrastructure: heroku, nginx;
-- Editors: VS Code, Atom;
+- Testing: Vites, Cypress, Karma,;
 - Design: Figma;
+#### Backend
+- Back-End: Node;
+- Frameworks/Libraries: Nest, Django, Flask;
+- API/GraphQL: Typeorm, Djangorestframework, graphene, strawberry;
+- Databases: Postgres, Sqlite;
+- Deployment/Infrastructure: heroku, nginx, Docker;
+#### Data Science and Computer Vision
+- Tools: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, numba, seaborn, pandas
 
 ---
 
@@ -60,11 +70,55 @@ function moveZeros(array) {
 
 ### Experience
 
+## Work experience
+
+Jan. 2023 - present<br />
+**Full-stack developer**<br />
+(*Freelancer*)
+
+Developing a website and microservices
+
+Sep. 2021 - Dec. 2022<br />
+**Full-stack developer**
+(*North-Eastern Federal University*)
+
+Created a website for a comprehensive research project in medical physics. Provided ongoing maintenance and support for the website developed for a comprehensive research project in medical physics.
+
+Technologies: Python, JS, jQuery, Django, DjangoRESTframe, Postgresql, heroku, pyparsing, tkinter<br/>
+Links:<br/>
+[www.nefu-medphys.com](https://www.nefu-medphys.com)
+
+Sep. 2020 - May. 2021<br />
+**Researcher & Programmer**
+(*North-Eastern Federal University*)
+
+Developed a methodology for machine recognition of shapes and sizes of RBC images in normal and pathological conditions for disease diagnostics. 
+
+Technologies: Python, NumPy, Matplotlib, OpenCV, PyTorch, numba, seaborn, pandas<br/>
+Publication links:<br/>
+[Article on RG.RU](https://rg.ru/2022/07/04/reg-dfo/fiziki-svfu-nahodiat-novye-sposoby-borby-s-onkozabolevaniiami.html)<br/>
+[Article on Atlantis Press](https://www.atlantis-press.com/proceedings/chw-21/125968735)
+
+
+Jan. 2010 - Nov. 2018<br />
+**Data Management Specialist**
+(*Diamond Processing Manufacturing Company LLC TUNALGY*)
+
+Serving the Energia R&D Program (C language).
+Preparing reports and shipping documents for the State Treasury of Russia.
+Network-related work
+
+Technologies: Python, C, SQL, PostgreSQL, openpyxl, requests (HTTP/HTTPS), socket.
+
+Jan. 2006 - Jul. 2007<br />
+**System administrator**
+(*Diamond Processing Manufacturing Company LLC TUNALGY*)
+
+Server setup and maintenance, user management, data backup, system monitoring, and optimization.
+
+
+
 ## Some projects
-
-Website development: [https://www.nefu-medphys.com](https://www.nefu-medphys.com)
-
-Program development: [https://rg.ru/2022/07/04/reg-dfo/fiziki-svfu-nahodiat-novye-sposoby-borby-s-onkozabolevaniiami.html](https://rg.ru/2022/07/04/reg-dfo/fiziki-svfu-nahodiat-novye-sposoby-borby-s-onkozabolevaniiami.html)
 
 Program development: [https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745](https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745)
 
