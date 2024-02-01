@@ -10,8 +10,6 @@
 
 ### Shortly about:
 
-Programming is a part of my life; it inspires and motivates me. In 2016, I started learning the Python programming language. It wasn't my first encounter with a programming language (I had previous experience with Pascal and C++), but this time it immersed me in the world of code, functions, and modules. Since then, I have been passionate about programming as a hobby.<br>
-
 In 2019, while pursuing my master's degree, I was assigned a project to create a corpus of the English language related to nuclear physics. Coincidentally, that was the time when I was fascinated with NLTK (Natural Language Toolkit). I developed software using Natural Language Processing (NLP) techniques and implemented it using the Python programming language.<br>
 
 In 2020, there was a scientific problem at the department related to measuring the diameters of erythrocytes in SEM (Scanning Electron Microscope) images. Applying my skills, I wrote a program for erythrocyte recognition. Now, the program automatically measured the areas and diameters of 1000 erythrocytes in just one minute.<br>
