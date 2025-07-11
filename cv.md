@@ -25,19 +25,22 @@ Languages: Python, JavaScript/TypeScript;
 Source control: Git
 
 #### Backend
-	•	Frameworks/Libraries: Flask, Django, FastAPI
-	•	API/GraphQL: TypeORM, Django REST Framework, Pydantic, SQLAlchemy, Flask-Smorest
-	•	Databases: PostgreSQL, MongoDB, MySQL, SQLite
-	•	Testing: Pytest, Factory Boy, Faker, Locust, k6
-	•	Code Quality & Static Analysis: black, isort, flake8, mypy, pre-commit
-	•	Deployment/Infrastructure: Docker, Docker Compose, Nginx, Gunicorn, uvicorn, PythonAnywhere, Heroku, Kubernetes (базовое знакомство)
-	•	Messaging & Tasks: RabbitMQ, Celery
-	•	Logging & Monitoring: ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, Grafana
-	•	CI/CD: GitHub Actions, GitLab CI
-	•	Other tools: Git, Bash, Makefile
+
+- Frameworks/Libraries: Flask, Django, FastAPI
+- API/GraphQL: TypeORM, Django REST Framework, Pydantic, SQLAlchemy, Flask-Smorest
+- Databases: PostgreSQL, MongoDB, MySQL, SQLite
+- Testing: Pytest, Factory Boy, Faker, Locust, k6
+- Code Quality & Static Analysis: black, isort, flake8, mypy, pre-commit
+- Deployment/Infrastructure: Docker, Docker Compose, Nginx, Gunicorn, uvicorn, PythonAnywhere, Heroku, Kubernetes (базовое знакомство)
+- Messaging & Tasks: RabbitMQ, Celery
+- Logging & Monitoring: ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, Grafana
+- CI/CD: GitHub Actions, GitLab CI
+- Other tools: Git, Bash, Makefile
+
 #### Data Science and Computer Vision
-	•	Libraries: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, Numba, pandas, scikit-learn
-	•	Tasks: Data preprocessing, EDA, ML pipelines, basic NLP, computer vision image classification
+
+ •	Libraries: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, Numba, pandas, scikit-learn
+ •	Tasks: Data preprocessing, EDA, ML pipelines, basic NLP, computer vision image classification
 
 ---
 
