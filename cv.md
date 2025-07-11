@@ -39,8 +39,8 @@ Source control: Git
 
 #### Data Science and Computer Vision
 
- •	Libraries: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, Numba, pandas, scikit-learn
- •	Tasks: Data preprocessing, EDA, ML pipelines, basic NLP, computer vision image classification
+- Libraries: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, Numba, pandas, scikit-learn
+- Tasks: Data preprocessing, EDA, ML pipelines, basic NLP, computer vision image classification
 
 ---
 
