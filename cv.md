@@ -22,48 +22,23 @@ Currently, my goal is to become a Full-Stack Developer.
 
 Languages: Python, JavaScript/TypeScript;
 
-Editors: VS Code, Atom;
-
 Source control: Git
-#### Frontend
-- Front-End: HTML5, CSS3
-- Frameworks/Libraries: React, Angular, Redux;
-- API/GraphQL: Axios, GraphQL, Apollo-GraphQL, ;
-- Build Tools: Vite, Webpack;
-- Code Quality: Eslint, Prettier;
-- Testing: Vites, Cypress, Karma,;
-- Design: Figma;
+
 #### Backend
-- Back-End: Node;
-- Frameworks/Libraries: Nest, Django, Flask;
-- API/GraphQL: Typeorm, Djangorestframework, graphene, strawberry;
-- Databases: Postgres, Sqlite;
-- Deployment/Infrastructure: heroku, nginx, Docker;
+	•	Frameworks/Libraries: Flask, Django, FastAPI
+	•	API/GraphQL: TypeORM, Django REST Framework, Pydantic, SQLAlchemy, Flask-Smorest
+	•	Databases: PostgreSQL, MongoDB, MySQL, SQLite
+	•	Testing: Pytest, Factory Boy, Faker, Locust, k6
+	•	Code Quality & Static Analysis: black, isort, flake8, mypy, pre-commit
+	•	Deployment/Infrastructure: Docker, Docker Compose, Nginx, Gunicorn, uvicorn, PythonAnywhere, Heroku, Kubernetes (базовое знакомство)
+	•	Messaging & Tasks: RabbitMQ, Celery
+	•	Logging & Monitoring: ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, Grafana
+	•	CI/CD: GitHub Actions, GitLab CI
+	•	Other tools: Git, Bash, Makefile
 #### Data Science and Computer Vision
-- Tools: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, numba, seaborn, pandas
+	•	Libraries: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, Numba, pandas, scikit-learn
+	•	Tasks: Data preprocessing, EDA, ML pipelines, basic NLP, computer vision image classification
 
----
-
-### Code example:
-
-**KATA from CODEWARS:**
-*Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.*
-
-```javascript
-function moveZeros(array) {
-  let i = 0; 
-  let j = 0; 
-  while (i < array.length) {
-    if (array[i] !== 0) {
-      [array[i], array[j]] = [array[j], array[i]];
-      j++;
-    }
-    i++;
-  }
-
-  return array;
-}
-```
 ---
 
 ### Experience
@@ -119,14 +94,6 @@ Server setup and maintenance, user management, data backup, system monitoring, a
 ## Some projects
 
 Program development: [https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745](https://www.s-vfu.ru/news/detail.php?SECTION_ID=2268&ELEMENT_ID=142745)
-
-## Some projects completed during the courses
-
-Website development: [https://rococo-tartufo-b0205d.netlify.app](https://rococo-tartufo-b0205d.netlify.app)
-
-Website development: [https://develop--golden-clafoutis-688ad6.netlify.app](https://develop--golden-clafoutis-688ad6.netlify.app)
-
-File-manager: [https://github.com/semoleg1986/file-manager/tree/dev](https://github.com/semoleg1986/file-manager/tree/dev)
 
 ---
 
