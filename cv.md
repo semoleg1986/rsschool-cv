@@ -26,21 +26,29 @@ Source control: Git
 
 #### Backend
 
-- Frameworks/Libraries: Flask, Django, FastAPI
-- API/GraphQL: TypeORM, Django REST Framework, Pydantic, SQLAlchemy, Flask-Smorest
-- Databases: PostgreSQL, MongoDB, MySQL, SQLite
-- Testing: Pytest, Factory Boy, Faker, Locust, k6
-- Code Quality & Static Analysis: black, isort, flake8, mypy, pre-commit
-- Deployment/Infrastructure: Docker, Docker Compose, Nginx, Gunicorn, uvicorn, PythonAnywhere, Heroku, Kubernetes (базовое знакомство)
-- Messaging & Tasks: RabbitMQ, Celery
-- Logging & Monitoring: ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, Grafana
-- CI/CD: GitHub Actions, GitLab CI
-- Other tools: Git, Bash, Makefile
+-	FW/LIB: Flask, Django, FastAPI
+-	API/GraphQL: Django REST Framework, Pydantic, SQLAlchemy, Flask-Smorest
+-	DB: PostgreSQL, MongoDB, MySQL, SQLite
+-	TEST: Pytest, Factory Boy, Faker, Locust, k6
+-	CQ/SA: black, isort, flake8, mypy, pre-commit
+- DM: pip-tools
+-	DEP/INF: Docker, Docker Compose, Nginx, Gunicorn, uvicorn
+-	MSG/TASK: RabbitMQ, Celery
+-	LOG/MON: ELK, Prometheus, Grafana
+-	CI/CD: GitHub Actions, GitLab CI
+-	TOOLS: Git, Bash, Makefile
+
+#### System Design & Arch
+
+-	Design: Service-Oriented Architecture, REST API, DB design, CQRS, DDD
+-	P&P: SOLID, DRY, KISS, Clean Arch, DI
+-	Docs: UML, ERD, Seq diagrams
+
 
 #### Data Science and Computer Vision
 
-- Libraries: NumPy, Matplotlib, OpenCV, PyTorch, NLTK, Numba, pandas, scikit-learn
-- Tasks: Data preprocessing, EDA, ML pipelines, basic NLP, computer vision image classification
+-	LIB: NumPy, pandas, scikit-learn, Matplotlib, OpenCV, PyTorch, Numba, NLTK
+-	TASKS: EDA, ML pipelines, NLP (basic), CV classification
 
 ---
 
